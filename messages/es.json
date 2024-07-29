@@ -1,0 +1,15 @@
+{
+  "NavigationDrawer": {
+    "aboutMe": "Acerca de mí",
+    "articles": "Artículos",
+    "projects": "Proyectos",
+    "experiments": "experimentos",
+    "copyright": "© {year} Alex Westphal."
+  },
+  "ColorModeControl": {
+    "optionSystem": "Sistema",
+    "optionLight": "Luz",
+    "buttonTooltip": "Modo de color",
+    "optionDark": "Oscuro"
+  }
+}
