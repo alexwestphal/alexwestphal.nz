@@ -1,0 +1,24 @@
+# Settings for Cloud Run
+runConfig:
+  minInstances: 2
+  maxInstances: 100
+  concurrency: 100
+  cpu: 2
+  memoryMiB: 1024
+
+env:
+  # Values from the Firebase console
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: "AIzaSyA2tRWBjmIUheQJ-voOmu4Cen9hW6BpWGk"
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: "alexwestphal-nz.firebaseapp.com"
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: "alexwestphal-nz"
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: "alexwestphal-nz.appspot.com"
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "777306244448"
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: "1:777306244448:web:d87aaa83047e7cf0558a05"
+  - variable: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+    value: "G-YJ41QPDWJZ"
