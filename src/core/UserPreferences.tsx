@@ -126,7 +126,7 @@ export const UserPreferencesProvider: React.FC<UserPreferencesProviderProps> = (
             },
         
         })
-    }, [userPreferences.actualColorMode, userPreferences.actualTextDirection, locale])
+    }, [prefersDarkMode, userPreferences.actualColorMode, userPreferences.actualTextDirection, locale])
 
     return <UserPreferencesContext.Provider value={userPreferences}>
         <ThemeProvider theme={theme}>
