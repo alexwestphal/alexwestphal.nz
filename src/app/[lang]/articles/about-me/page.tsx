@@ -6,10 +6,10 @@ import WorkInProgress from '@/components/WorkInProgress'
 
 
 
-export default function ArticlesIndex() {
+export default function AboutMe() {
 
     return <Container>
-        <h2>Articles</h2>
+        <h2>About Me</h2>
         <WorkInProgress/>
     </Container>
 }
